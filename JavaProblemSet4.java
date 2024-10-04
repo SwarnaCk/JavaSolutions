@@ -6,7 +6,7 @@ public class JavaProblemSet4 {
         System.out.println("Reversed Array:");
         printIntegerArray(reversedArray);
 
-        String[] result = containsValue(array, 1);
+        String[] result = containsValue(array, 10);
         JavaProblemSet2.printArray(result);
     }
 
@@ -17,7 +17,6 @@ public class JavaProblemSet4 {
         System.out.println();
     }
 
-    // Method to reverse an array
     public static int[] reverseArray(int[] array) {
         int[] reversedArray = new int[array.length];
         for (int i = 0; i < array.length; i++) {
